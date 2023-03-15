@@ -1,0 +1,94 @@
+/* estilos.css*/
+/* 
+https://coolors.co/
+
+Seleciona todas as tags deste tipo
+seletor{
+    propriedade1: valor1;
+    propriedade2: valor2;
+}
+
+Seleciona um ÚNICO elemeneto com este nome/id
+No HTML usa-se o atributo ID 
+#NomeDoElemento {
+         propriedade1: valor1;
+        propriedade2: valor2;
+}
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+body{
+    background-color: #a56a37;
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    color: #000000; /* Cor do texto */
+    font-family: "Courgette";
+}
+
+p {
+    background-color: #ccd5ae;
+}
+
+h2 {
+ color: #dda15e;
+ font-family: "Satisfy";
+}
+
+h3 {
+    color: #d4a373;
+}
+.menu{
+    background-color: #606c38;
+    color: #e9edc9;
+    text-decoration: none;
+    font-weight: 700; /* 400 normal, 700 negrito*/
+    display: inline-block; 
+    padding: 10px 20px; /*Espaçamento interno*/
+    margin: 5px; /*Espaçamento externo*/
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+a:hover {
+    /* Quando o usuário colocar o mouse em cima*/
+    background-color: blanchedalmond;
+
+}
+#primeiro{
+    color: #606c38;
+    font-weight: 700;
+    text-align: center;
+}
+#pudim{
+    width: 250px;
+    border-color: #bc6c25;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-top-color: blue;
+}
+#table{
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: dashed;
+    background-color: rgb(255, 251, 0);
+    border-color: #22c006;
+}
+.impar{
+    color: rgb(255, 255, 255);
+    background-color: #466adf;
+    border-radius: 10px;
+  
+}
+.par{
+    color: #fff9f9;
+    background-color: #3a4b85;
+}
+ul li.impar{
+    text-transform: uppercase;
+}
+ul li.par{
+    text-transform: lowercase;
+}
