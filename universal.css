@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background: url(imagens/estrela.jpg);
+    width: auto;
+    height: auto;
+}
+
+#logoTopo img{
+    width: 20rem;
+    height: 9rem;
+}
