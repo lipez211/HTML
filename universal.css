@@ -3,27 +3,68 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .topo{
     background: url(imagens/topo.png);
     width: auto;
     height: auto;
+    display: grid;
+    grid-template-areas: 
+    'logot logot logot'
+    ' menup menup menup'
+    'menu principal principal'
+    'rodape rodape rodape';
+    column-gap: 10px;
+    row-gap: 10px;
+ 
 }
+
 #logoTopo img{
     width: 20rem;
     height: 9rem;
+    grid-area: logot;
 }
+
 h1{
     color: rgb(251, 255, 1);
+    padding: 1px;
+    margin: 5px;
 }
+
 p{
 color: rgb(251, 255, 1);
 text-align: center;
-border-style: solid;
-border-color: rgb(251, 255, 0);
 font-family: 'Courier New', Courier, monospace;
+
 }
-#meio{
-    border-radius: 10px;
+
+#txt{
     border-style: solid;
     border-color: yellow;
+    grid-area: principal;
+    margin: 5px;
+}
+
+#menuP{
+    border-style: solid;
+    color: yellow;
+    grid-area: menup;
+    padding: 10px;
+    margin: 5px;
+}
+#menuL{
+    border-style: solid;
+    color: yellow;
+    grid-area: menu;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#rodape{
+    color: yellow;
+    border-style: solid;
+    grid-area: rodape;
+    padding: 10px;
+    margin: 5px;
 }
