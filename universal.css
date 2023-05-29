@@ -1,15 +1,29 @@
-body {
+body{
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
 }
-
-.topo {
-    background: url(imagens/estrela.jpg);
+.topo{
+    background: url(imagens/topo.png);
     width: auto;
     height: auto;
 }
-
 #logoTopo img{
     width: 20rem;
     height: 9rem;
+}
+h1{
+    color: rgb(251, 255, 1);
+}
+p{
+color: rgb(251, 255, 1);
+text-align: center;
+border-style: solid;
+border-color: rgb(251, 255, 0);
+font-family: 'Courier New', Courier, monospace;
+}
+#meio{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: yellow;
 }
